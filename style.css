@@ -1,0 +1,72 @@
+@media(max-width:568px){
+    .pimg1, .pimg2, .pimg3{
+      background-attachment:scroll;
+    }
+}
+body,html{
+    height:100%;
+    margin:0;
+    font-size: 20px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:white;
+}
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.pimg1{
+    background-image: url(image/image1.jpg);
+    min-height: 100%;
+}
+.ptext{
+        position:absolute;
+        top:50%;
+        width:100%;
+        text-align:center;
+        color:#000;
+        font-size:27px;
+        letter-spacing:8px;
+        text-transform:uppercase;
+}
+.ptext .border{
+    background-color: white;
+    padding: 20px;
+    color: black;
+}
+.ptext .border.trans{
+    background-color:transparent;
+  }
+.section{
+    text-align: center;
+    padding:50px 100px;
+  }
+  
+.section-one{
+    background-color:#f4f4f4;
+    color:#666;
+  }
+  .h2{
+    text-align: center;
+  }
+.pimg2{
+    background-image: url(image/image2.jpg);
+    min-height: 400px;
+}
+.section-two{
+    background-color:#282e34;
+    color:#ddd;
+  }
+  .pimg3{
+      background-image: url(image/image3.jpg);
+      min-height: 400px;
+  }
+  .section h1,h2,h1{
+    text-align: center;
+  }
